@@ -23,6 +23,9 @@
 ---
 
 ### Задание 1
+
+rsync -av --delete --checksum --exclude='.*' "$HOME"/ /tmp/backup/
+
 <img src = "img/c01-1.png" width = 100%>
 
 
